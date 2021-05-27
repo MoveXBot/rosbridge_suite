@@ -17,8 +17,8 @@
 
   <arg name="authenticate" default="false" />
 
-  <arg name="websocket_ping_interval" default="0" />
-  <arg name="websocket_ping_timeout" default="30" />
+  <arg name="websocket_ping_interval" default="2" />
+  <arg name="websocket_ping_timeout" default="10" />
   <arg name="websocket_null_origin" default="true" />
 
   <arg name="topics_glob" default="[*]" />
